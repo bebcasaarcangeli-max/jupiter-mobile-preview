@@ -28,6 +28,11 @@
     });
     taskCards.forEach(card => { card.hidden = filter !== "all" && card.dataset.status !== filter; });
   }));
+  document.querySelectorAll("[data-product-info]").forEach(button => button.addEventListener("click", () => {
+    const detail = button.nextElementSibling;
+    detail.hidden = !detail.hidden;
+    button.textContent = detail.hidden ? "Dettagli prodotto" : "Chiudi dettagli";
+  }));
   document.querySelectorAll(".detail-toggle").forEach(button => button.addEventListener("click", () => {
     const detail = button.closest(".task-card").querySelector(".task-detail");
     const expanded = button.getAttribute("aria-expanded") === "true";
