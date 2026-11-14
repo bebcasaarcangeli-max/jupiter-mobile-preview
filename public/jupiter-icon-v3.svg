@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d8f0"/><stop offset=".52" stop-color="#00bce9"/><stop offset=".76" stop-color="#35e37b"/><stop offset="1" stop-color="#ffe000"/></linearGradient>
+ <linearGradient id="letter" x1=".2" y1="0" x2=".75" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".56" stop-color="#fff"/><stop offset="1" stop-color="#05bde9"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#062c76"/><stop offset="1" stop-color="#03143e"/></radialGradient>
+ <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#glow)"/>
+<path d="M430 102 C359 100 268 113 186 163 C104 213 54 285 73 341 C91 393 167 402 244 373 C166 407 74 403 48 348 C16 281 81 196 171 145 C265 92 363 88 430 102Z" fill="url(#orbit)" opacity=".18" filter="url(#soft)"/>
+<path d="M430 102 C359 100 268 113 186 163 C104 213 54 285 73 341 C91 393 167 402 244 373 C166 407 74 403 48 348 C16 281 81 196 171 145 C265 92 363 88 430 102Z" fill="url(#orbit)"/>
+<path d="M386 143 L273 143 C248 143 230 155 221 178 L164 337 C153 367 133 384 105 384 C91 384 81 378 75 367 C73 390 90 409 119 409 C159 409 190 386 205 345 L262 187 L351 187 L307 356 C292 411 252 443 194 443 C151 443 119 430 99 405 C111 447 154 472 213 472 C284 472 332 429 350 356 L400 158 C403 148 397 143 386 143Z" fill="#fff"/>
+<path d="M379 151 L278 151 C257 151 243 162 235 184 L180 339 C164 385 139 401 111 401 C100 401 91 398 84 391 C95 413 113 424 138 424 C178 424 208 397 222 354 L274 196 L363 196 L320 359 C303 420 261 454 204 454 C176 454 150 447 130 433 C151 459 184 472 226 472 C290 472 334 433 351 363 L396 177 C400 160 393 151 379 151Z" fill="url(#letter)" opacity=".94"/>
+<g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M216 342 L252 315 L276 227"/>
+ <path d="M216 342 L190 367 L206 276"/>
+ <path d="M252 315 L267 292"/>
+ <circle cx="276" cy="218" r="13" fill="#061b49"/>
+ <circle cx="206" cy="267" r="13" fill="#061b49"/>
+ <circle cx="267" cy="284" r="13" fill="#061b49"/>
+</g>
+<path d="M424 38 C432 83 443 95 489 103 C443 111 432 123 424 168 C416 123 405 111 359 103 C405 95 416 83 424 38Z" fill="#ffcf19"/>
+<path d="M424 49 C430 83 438 97 472 103 C438 109 430 123 424 157 C418 123 410 109 376 103 C410 97 418 83 424 49Z" fill="#ffe84b"/>
+</svg>
