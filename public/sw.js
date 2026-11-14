@@ -1,4 +1,4 @@
-const CACHE = "jupiter-mobile-v0.4";
+const CACHE = "jupiter-mobile-v0.5";
 const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./jupiter-icon-v3.svg"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
